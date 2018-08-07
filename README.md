@@ -3,7 +3,9 @@
 Handles the short-commings of aws lambdas and NodeJS's requirement for ICU to be loaded at runtime
 
 #### How it works
-    Inside this project icu4c-data exists
+    You install ICU data in your project,
+    when you require this module, it synchronously, copies that data to the /tmp directory and Creates AWS_INTL global
+    which acts similar to the Intl global, but causes a spawn'd process which has ICU to run all your code
 
 # Install
 
