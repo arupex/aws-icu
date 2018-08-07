@@ -1,6 +1,6 @@
 {
   "name": "aws-icu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Getting AWS Lambda to work with ICU during runtime, and working around read-only constraints",
   "main": "index.js",
   "scripts": {
